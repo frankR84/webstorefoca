@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-image: url(foca.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: chocolate;
+
+    height: 45vh;  
+}
+
+h1{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ct{
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown
+
+}
+
+.nues{
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown
+}
+
+.tele{
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown
+}
+.cono{
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue
+
+}
+
+@media only screen and (min-width:320px) and (max-width:1201){
+    .encabezado{
+      width: 100%; 
+    }
+    
+    .video{
+      width: 100%;
+      background-position: auto;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:1201){
+  div{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .container{
+    background-color: blueviolet;
+  }
+  .login-container{
+    background-color: blueviolet;
+  }
+  .register{
+    background-color: blueviolet;
+  }
+  .nombre{
+    background-color: darkorange;
+  }
+  .correoElectronico{
+    background-color: rgb(255, 140, 0);
+  }
+  .password{
+    background-color: rgb(255,140, 0);
+  }
+  .cono{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .ct{
+    background-color: lightsalmon;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .nues{
+    background-color: lightsalmon;
+  }
+  .correo{
+    background-color: lightsalmon;
+  }
+  .tele{
+     background-color: lightsalmon;
+  }
+
+}
